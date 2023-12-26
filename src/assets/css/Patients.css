@@ -1,0 +1,182 @@
+.patient-select-btns {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border-radius: 5px;
+}
+
+.patient-select-btns button {
+  color: #000;
+  width: 40% !important;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+
+  .fa-caret-down {
+    display: none;
+  }
+
+  .fa-caret-right {
+    color: #f63f3f;
+  }
+}
+
+.patient-select-btns button.active,
+.patient-select-btns button:hover {
+  background-color: #2148ab;
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  border-style: none;
+
+  .fa-caret-down {
+    display: block;
+    color: #ffffff;
+    margin-top: 6.5px !important;
+    margin-left: 5px;
+  }
+
+  .fa-caret-right {
+    display: none;
+  }
+}
+
+.patient-select-btns button:hover {
+  background-color: rgb(220, 231, 248);
+  color: #000000;
+  font-size: 20px;
+  font-style: normal;
+  border-style: none;
+
+  .fa-caret-down {
+    display: block;
+    color: #ff0000;
+    margin-top: 6.5px !important;
+    margin-left: 5px;
+  }
+}
+
+.patient-select-btns button.active:hover {
+  background-color: #2148ab;
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  border-style: none;
+
+  .fa-caret-down {
+    display: block;
+    color: #ffffff;
+    margin-top: 6.5px !important;
+    margin-left: 5px;
+  }
+
+  .fa-caret-right {
+    display: none;
+  }
+}
+
+.patient-select-btns button p {
+  font-weight: 600 !important;
+  text-align: left;
+  margin-bottom: 11.5% !important;
+  margin-top: 2%;
+}
+
+.patient-select-btns button h6 {
+  font-weight: 700;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.patient-select-btns button h4 {
+  font-weight: 700;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.rs-picker-toolbar-right button {
+  background-color: #396ff8;
+  border-radius: 5px;
+}
+
+/* ------------------------------Table-------------------------------- */
+
+.patient-table-icon {
+  border: none;
+  width: 4%;
+  padding: 0% !important;
+  padding-left: 7.7% !important;
+  padding-top: 0.5% !important;
+  color: #838383 !important;
+}
+
+.patient-table-icon-pen {
+  border: none;
+  width: 8%;
+  padding: 0% !important;
+  padding-left: 5.5% !important;
+  padding-top: 0.5% !important;
+  color: #838383 !important;
+}
+
+.class-for-status1 {
+  color: #0064ff !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.class-for-status2 {
+  color: #f63f3f !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 19px !important;
+}
+
+.patient-table-data {
+  border-bottom: none;
+  padding-left: 3% !important;
+}
+
+.patient-table-head {
+  border-bottom: none;
+  padding-left: 3% !important;
+  color: #b1b1b1 !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.patient-table-head-name {
+  border-bottom: none;
+  padding-left: 5% !important;
+  color: #b1b1b1 !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.table-fixed thead {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Add your desired background color */
+  z-index: 1;
+}
+
+.patient-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
